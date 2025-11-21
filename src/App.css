@@ -1,0 +1,15 @@
+.app {
+  display: grid;
+  grid-template-rows: 150px auto;
+}
+
+.app_main {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 8%;
+}
+
+.task_column {
+  width: 33.33%;
+  padding: 0 10px; /* 양 옆 간격만 살짝 주고 싶으면 이 정도만 */
+}

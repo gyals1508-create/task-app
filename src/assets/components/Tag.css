@@ -1,0 +1,17 @@
+.tag {
+  border: none;
+  border-radius: 20px;
+  padding: 4px 10px;
+  font-size: 12px;
+  margin-right: 6px;
+  cursor: pointer;
+  outline: none;
+
+  /* 선택 안됐을 때 기본 배경 */
+  background: #f9f9f9;
+}
+
+.tag_selected {
+  /* 선택됐을 때는 JS에서 색을 넣어줘서 여기선 border만 처리 */
+  border: none;
+}

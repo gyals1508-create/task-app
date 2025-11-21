@@ -1,0 +1,17 @@
+.task_column {
+  width: 33.33%;
+  padding: 10px;
+}
+
+.task_column_heading {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.task_column_icon {
+  width: 24px;
+  margin-right: 10px;
+}
